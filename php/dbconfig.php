@@ -6,8 +6,8 @@ class DBConnection {
     private $_host = 'localhost';
     private $_port = '3306';
     private $_user = 'root';
-    private $_password = 'mysql';
-    private $_dbname = 'jacobo_turnosweb';
+    private $_password = '';
+    private $_dbname = 'test';
 
     function getConnection() {
         $objPDO = NULL;
